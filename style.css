@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -73,4 +70,33 @@ button {
     background-color: #555;
     color: white;
 }
->>>>>>> 912d1b0 (Create student todo UI)
+.task-stats {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f2f2f2;
+}
+
+.task-stats p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+#taskList li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#taskList li input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+#taskList li span {
+    flex: 1;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
